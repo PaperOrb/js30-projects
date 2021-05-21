@@ -1,0 +1,126 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+}
+
+.wtf {
+  border: 1px solid red;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/26744.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.black-border {
+  border: 3px solid black;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.transparent-black-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+// animation
+.key {
+  transition: all 0.07s;
+}
+
+.active {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+// font
+.serif-font {
+  font-family: serif;
+}
+
+.yellow-font {
+  color: rgb(226, 185, 0);
+}
+
+.white-font {
+  color: white;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+//  dimension
+
+.full-width {
+  display: relative;
+  width: 100%;
+}
+
+// margin padding
+.mx-5 {
+  margin: 0 1em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.px-5 {
+  padding: 0 0.5em;
+}
+
+.pt-3 {
+  padding-top: 0.5em;
+}
+
+.pb-1 {
+  padding-bottom: 0.2em;
+}
+
+// position
+
+.font-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
